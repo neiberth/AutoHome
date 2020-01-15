@@ -5,6 +5,8 @@
 
 ## 1 - Configuração no FireBase. 
 
+- [Adicionar o Firebase ao projeto para Android](https://firebase.google.com/docs/android/setup?hl=pt-br).
+
 ## 2 - Configuração no Android Studio: 
 
 - **Gradle/build.gradle(Project)** 
@@ -19,6 +21,9 @@ dependencies {
  ```
 
  - **Gradle/build.gradle(App)** 
+
+ - [gradle.app](app/build.gradle).
+ 
  ```
  ...
 apply plugin: 'com.google.gms.google-services'
