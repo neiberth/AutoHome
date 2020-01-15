@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="250dp"
+           android:orientation="vertical"
+           tools:ignore="MissingConstraints"
+           android:background="@color/TertiaryShade">
+
+           <ImageView
+               android:layout_marginTop="80dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/logo"
+               android:layout_gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="@string/app_subName"
+               android:textColor="@color/Light"
+               android:textSize="18dp"/>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginTop="248dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <EditText
+               android:id="@+id/emailET"
+               android:layout_marginTop="70dp"
+               android:layout_gravity="center"
+               android:layout_width="370dp"
+               android:layout_height="wrap_content"
+               android:background="@color/TertiaryTint"
+               android:padding="10dp"
+               android:hint="@string/app_userName"
+               android:textColorHint="@color/Light"
+               android:textColor="@color/Light"
+               android:drawableStart="@drawable/ic_person_black_24dp"
+               android:drawableLeft="@drawable/ic_person_black_24dp"/>
+
+           <EditText
+               android:id="@+id/passwordET"
+               android:layout_marginTop="20dp"
+               android:layout_gravity="center"
+               android:layout_width="370dp"
+               android:layout_height="wrap_content"
+               android:background="@color/TertiaryTint"
+               android:padding="10dp"
+               android:hint="@string/app_password"
+               android:inputType="textPassword"
+               android:textColorHint="@color/Light"
+               android:textColor="@color/Light"
+               android:drawableStart="@drawable/ic_lock_black_24dp"
+               android:drawableLeft="@drawable/ic_lock_black_24dp"/>
+
+           <Button
+               android:id="@+id/signInBt"
+               android:layout_gravity="center"
+               android:layout_width="300dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="40dp"
+               android:background="@color/Tertiary"
+               android:text="@string/app_login"
+               android:textColor="@color/Light"
+               android:textSize="19dp"
+               />
+
+           <TextView
+               android:layout_gravity="center"
+               android:layout_marginTop="100dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/app_versao"/>
+
+       </LinearLayout>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

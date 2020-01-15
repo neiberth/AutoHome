@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary">#3880ff</color>
+    <color name="PrimaryShade">#3171e0</color>
+    <color name="PrimaryTint">#4c8dff</color>
+
+    <color name="Secondary">#0cd1e8</color>
+    <color name="SecondaryShade">#0bb8cc</color>
+    <color name="SecondaryTint">#24d6ea</color>
+
+    <color name="Tertiary">#4A148C</color>
+    <color name="TertiaryShade">#41127b</color>
+    <color name="TertiaryTint">#5c2c98</color>
+
+    <color name="Success">#10dc60</color>
+    <color name="SuccessShade">#0ec254</color>
+    <color name="SuccessTint">#28e070</color>
+
+    <color name="Warning">#ffce00</color>
+    <color name="WarningShade">#e0b500</color>
+    <color name="WarningTint">#ffd31a</color>
+
+    <color name="Danger">#f04141</color>
+    <color name="DangerShade">#d33939</color>
+    <color name="DangerTint">#f25454</color>
+
+    <color name="Dark">#222428</color>
+    <color name="DarkShade">#1e2023</color>
+    <color name="DarkTint">#383a3e</color>
+
+    <color name="Medium">#989aa2</color>
+    <color name="MediumShade">#86888f</color>
+    <color name="MediumTint">#a2a4ab</color>
+
+    <color name="Light">#f4f5f8</color>
+    <color name="LightShade">#d7d8da</color>
+    <color name="LightTint">#f5f6f9</color>
+</resources>

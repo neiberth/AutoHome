@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Auto Home</string>
+    <!-- Tela de LOGIN -->
+    <string name="app_subName">Automação Residencial</string>
+    <string name="app_userName">Email</string>
+    <string name="app_password">Senha</string>
+    <string name="app_login">Acessar</string>
+    <string name="app_versao">Versão: 1.0 Beta</string>
+</resources>

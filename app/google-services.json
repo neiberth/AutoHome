@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "333491371904",
+    "firebase_url": "https://autohome-14b09.firebaseio.com",
+    "project_id": "autohome-14b09",
+    "storage_bucket": "autohome-14b09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333491371904:android:8b1478b11566d3a6734b65",
+        "android_client_info": {
+          "package_name": "br.com.neiberth.autohome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333491371904-ou2e9n7usespi7j2fbaskdqj5ua13g18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBqU7AeBCl3kTn0TSPzCBOkFr3-hGDqqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333491371904-ou2e9n7usespi7j2fbaskdqj5ua13g18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

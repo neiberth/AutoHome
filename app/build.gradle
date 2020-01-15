@@ -1,26 +1,24 @@
-<p align="center">
-  <h1 align="center">AutoHome</h1>
-  <p align="center">Auto Home - Projeto de automação para residencia</p>
-</p>
+apply plugin: 'com.android.application'
 
-## 1 - Configuração no FireBase. 
-
-## 2 - Configuração no Android Studio: 
-
-- **Gradle/build.gradle(Project)** 
-```
-...
-dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.3'
-        classpath 'com.google.gms:google-services:4.3.2'
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "br.com.neiberth.autohome"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
- ```
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
 
- - **Gradle/build.gradle(App)** 
- ```
- ...
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.android.application'
 
@@ -35,4 +33,3 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:19.1.0'
     implementation 'com.google.firebase:firebase-analytics:17.2.0'
 }
-```
