@@ -6,4 +6,10 @@
     <string name="app_password">Senha</string>
     <string name="app_login">Acessar</string>
     <string name="app_versao">Versão: 1.0 Beta</string>
+
+    <!-- Tela de HOME -->
+    <!-- Card Temperatura Externa - TE -->
+    <string name="card_TemperaturaTE">Temperatura Externa</string>
+    <!-- Card Consumo de Enercia - CE -->
+    <string name="card_ConsumoEnerciaCE">Consumo de Energia</string>
 </resources>

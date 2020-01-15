@@ -45,19 +45,26 @@
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Temperatura Externa"
+                       android:text="@string/card_TemperaturaTE"
                        android:textSize="14dp"
                        android:layout_marginTop="5dp"
                        android:layout_marginLeft="5dp"
-                       android:textColor="@color/Dark"/>
+                       android:textColor="@color/Dark"
+                       android:layout_gravity="center"/>
 
                    <LinearLayout
                        android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
+                       android:layout_height="80dp"
                        android:orientation="horizontal"
                        android:layout_marginRight="10dp"
                        android:layout_gravity="end">
 
+                       <ImageView
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:src="@drawable/temperature"
+                           android:layout_gravity="center"
+                           android:layout_marginRight="10dp"/>
                        <TextView
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
@@ -69,17 +76,24 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="°C"
-                           android:textSize="35dp"
+                           android:textSize="30dp"
                            android:textColor="@color/Dark"
                            android:layout_gravity="fill"/>
                    </LinearLayout>
 
                    <LinearLayout
                        android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
+                       android:layout_height="50dp"
                        android:orientation="horizontal"
                        android:layout_marginRight="10dp"
-                       android:layout_gravity="end">
+                       android:layout_gravity="center">
+
+                       <ImageView
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:src="@drawable/humidity"
+                           android:layout_gravity="center"
+                           android:layout_marginRight="10dp"/>
 
                        <TextView
                            android:layout_width="wrap_content"
@@ -114,24 +128,25 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Consumo de Energia"
+                        android:text="@string/card_ConsumoEnerciaCE"
                         android:textSize="14dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginLeft="5dp"
-                        android:textColor="@color/Dark"/>
+                        android:textColor="@color/Dark"
+                        android:layout_gravity="center"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginRight="10dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="0dp"
                         android:layout_gravity="center">
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="80dp"
                             android:text="300"
-                            android:textSize="50dp"
+                            android:textSize="70dp"
                             android:textColor="@color/Dark"
                             />
                         <TextView

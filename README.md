@@ -20,10 +20,8 @@ dependencies {
     }
  ```
 
- - **Gradle/build.gradle(App)** 
+ - [**Gradle/build.gradle(App)**](app/build.gradle).
 
- - [gradle.app](app/build.gradle).
- 
  ```
  ...
 apply plugin: 'com.google.gms.google-services'
